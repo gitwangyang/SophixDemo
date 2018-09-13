@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
 
     private void initData() {
         textView.setText("这是修复前的效果！！！");
-        textView.setText("这是修复后的效果！！！");
-        textView.setText("这是第二次修复后的效果！！！");
+//        textView.setText("这是修复后的效果！！！");
+//        textView.setText("这是第二次修复后的效果！！！");
     }
 }
