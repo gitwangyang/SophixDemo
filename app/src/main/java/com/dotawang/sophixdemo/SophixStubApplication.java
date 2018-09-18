@@ -50,6 +50,8 @@ public class SophixStubApplication extends SophixApplication {
                 //调试状态下true，上线模式下false
                 .setEnableDebug(true)
                 .setEnableFullLog()
+                //加固时无法生效时此方法加入可以解决
+                .setUsingEnhance()
                 .setPatchLoadStatusStub(new PatchLoadStatusListener() {
                     @Override
                     public void onLoad(final int mode, final int code, final String info, final int handlePatchVersion) {
